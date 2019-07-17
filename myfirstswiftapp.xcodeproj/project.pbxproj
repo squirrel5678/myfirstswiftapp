@@ -14,6 +14,7 @@
 		0A208D3922DD1B4B0056A5FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A208D3722DD1B4B0056A5FE /* LaunchScreen.storyboard */; };
 		0A208D4422DD1B4B0056A5FE /* myfirstswiftappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A208D4322DD1B4B0056A5FE /* myfirstswiftappTests.swift */; };
 		0A208D4F22DD1B4B0056A5FE /* myfirstswiftappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A208D4E22DD1B4B0056A5FE /* myfirstswiftappUITests.swift */; };
+		0A9FD9F922DFB5D900DF8DDB /* Bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FD9F822DFB5D900DF8DDB /* Bear.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0A208D4A22DD1B4B0056A5FE /* myfirstswiftappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myfirstswiftappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A208D4E22DD1B4B0056A5FE /* myfirstswiftappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfirstswiftappUITests.swift; sourceTree = "<group>"; };
 		0A208D5022DD1B4B0056A5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9FD9F822DFB5D900DF8DDB /* Bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bear.png; path = Assets.xcassets/RandomImages/Bear.imageset/Bear.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				0A208D3222DD1B480056A5FE /* Main.storyboard */,
 				0A208D3522DD1B4B0056A5FE /* Assets.xcassets */,
 				0A208D3722DD1B4B0056A5FE /* LaunchScreen.storyboard */,
+				0A9FD9F822DFB5D900DF8DDB /* Bear.png */,
 				0A208D3A22DD1B4B0056A5FE /* Info.plist */,
 			);
 			path = myfirstswiftapp;
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A208D3922DD1B4B0056A5FE /* LaunchScreen.storyboard in Resources */,
+				0A9FD9F922DFB5D900DF8DDB /* Bear.png in Resources */,
 				0A208D3622DD1B4B0056A5FE /* Assets.xcassets in Resources */,
 				0A208D3422DD1B480056A5FE /* Main.storyboard in Resources */,
 			);
