@@ -27,12 +27,10 @@
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="IMageClick:" destination="UYE-mI-boB" eventType="touchUpInside" id="dBj-HL-SiV"/>
-                                    <action selector="imageClick:" destination="UYE-mI-boB" eventType="touchUpInside" id="Nz3-oT-iqX"/>
-                                    <action selector="imageClick:" destination="krg-jr-7q8" eventType="touchUpInside" id="Oy9-DR-5Yj"/>
+                                    <action selector="buttonClick:" destination="krg-jr-7q8" eventType="touchUpInside" id="caI-sa-mCT"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eSA-uL-aDs">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bear" translatesAutoresizingMaskIntoConstraints="NO" id="eSA-uL-aDs">
                                 <rect key="frame" x="20" y="119" width="374" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -41,14 +39,16 @@
                         <viewLayoutGuide key="safeArea" id="j07-6R-2OO"/>
                     </view>
                     <connections>
-                        <outlet property="imageView1" destination="eSA-uL-aDs" id="g2N-39-nY4"/>
+                        <outlet property="imageView1" destination="eSA-uL-aDs" id="WHn-6P-BeA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SVJ-Yt-Hd0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="UYE-mI-boB" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2016" y="-194"/>
+            <point key="canvasLocation" x="-51" y="139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Bear" width="30" height="36.5"/>
+    </resources>
     <color key="tintColor" red="0.45138680930000002" green="0.99309605359999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
